@@ -36,3 +36,23 @@ pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https:
 
 Mamun Dv
 
+python domain_checker.py
+
+https://google.com https://example.com
+
+Example output for Website Health Checker:
+
+🔍 Checking: https://google.com
+✅ DNS OK → google.com resolves to 142.250.x.x
+🌐 Status Code : 200
+⏱️ Response Time: 120.45 ms
+✅ Website is UP and working fine
+--------------------------------------------------
+
+Example output for Domain Checker Turmax:
+
+🔍 Checking: example.com
+✅ DNS OK → example.com resolves to 93.184.216.34
+🌐 Status Code : 200
+⏱️ Response Time: 135.67 ms
+--------------------------------------------------
