@@ -32,3 +32,15 @@ Copy and paste the following in **Termux / Linux**:
 
 ```bash
 pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https://github.com/tzalmamun/Domain-checker-Turmax.git && cd Domain-checker-Turmax && python3 -m pip install --break-system-packages -r requirements.txt && python3 domain_checker.py
+
+
+
+
+**
+
+🔍 Checking: https://google.com
+✅ DNS OK → google.com resolves to 142.250.x.x
+🌐 Status Code : 200
+⏱️ Response Time: 120.45 ms
+✅ Website is UP and working fine
+--------------------------------------------------
