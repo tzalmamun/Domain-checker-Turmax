@@ -30,4 +30,5 @@ Both tools are lightweight, Python-based, and designed to run on **Termux / Linu
 
 Copy and paste the following in **Termux / Linux**:
 
-```pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https://github.com/tzalmamun/Domain-checker-Turmax.git && cd Domain-checker-Turmax && python3 -m pip install --break-system-packages -r requirements.txt && python3 domain_checker.py ```
+```bash
+pkg update -y && pkg upgrade -y && pkg install python git -y && git clone https://github.com/tzalmamun/Domain-checker-Turmax.git && cd Domain-checker-Turmax && python3 -m pip install --break-system-packages -r requirements.txt && python3 domain_checker.py
